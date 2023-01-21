@@ -2,6 +2,7 @@ package Components.Players;
 import java.util.Scanner;
 
 public class HumanPlayer extends Player{
+    // I am the human player, I am controlled by a human (hopefully)
     private final Scanner inputScanner = new Scanner(System.in); // remains one declaration, avoids resource waste
     public int chips;
 

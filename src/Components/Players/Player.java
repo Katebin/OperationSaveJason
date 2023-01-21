@@ -3,6 +3,7 @@ import Components.Cards;
 import java.util.ArrayList;
 
 public abstract class Player {
+    //parent class for the other players
     public ArrayList<Cards> hand = new ArrayList<Cards>();
     public final boolean isDealer;
     public final String name;

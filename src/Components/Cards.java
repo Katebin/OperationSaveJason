@@ -1,6 +1,9 @@
 package Components;
 
 public enum Cards {
+    // contains all the values of the cards,
+    // enables easier customization and the addition of more cards without error
+    // *these are glorified constants*
     ONE(1),
     TWO(2),
     THREE(3),

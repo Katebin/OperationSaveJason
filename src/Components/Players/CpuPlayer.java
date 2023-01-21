@@ -1,6 +1,7 @@
 package Components.Players;
 
 public class CpuPlayer extends Player {
+    // I am an extremely basic opponent, child of the Player class
     public int chips;
 
     public CpuPlayer(String name, boolean isDealer) {
