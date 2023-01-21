@@ -131,7 +131,8 @@ public class Game {
 
             if(activePlayers.size() == 1)  {
             System.out.println("Game over!");
-            System.exit(0); // end program
+            roundNum = 0;
+            //System.exit(0); // end program
         }
     }
 }
